@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"> -->
+    <link rel="stylesheet" href="css/jQuery.UI.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Caribbean- An E-commerce Site</title>
+</head>
+<body>
+    <!-- === header section start here === -->
+    <section id="header">
+        <div class="container">
+            <!-- === top header start here === -->
+            <div class="header-top">
+                <div class="req-links">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">wishlist</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <ul>
+                        <li><a  href="tel:+027400">Need help? Call Us: + 0274400</a></li>
+                        <li class="change-lang">
+                            <a href="#">
+                                English
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <div class="lang">
+                            <ul>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Bangla</a></li>
+                                <li><a href="#">Chinese</a></li>
+                            </ul>
+                        </div>
+                        <li class="change-currency"><a href="#">USD <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <div class="currency">
+                            <ul>
+                                <li><a href="#">BDT</a></li>
+                                <li><a href="#">USD</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- === top header end here === -->
+
+            <!-- === header middle part start here === -->
+            <div class="header-middle">
+                <div class="row">
+                    <div class="col-3 col-md-3">
+                        <div class="logo">
+                            <img src="images/header_logo.png" alt="Header_Logo_Not_Found">
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-5">
+                        <div class="search-box">
+                            <form action="#" method="post"  class="input-group">
+                                <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                <button class="btn" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4">
+                        <div class="req-icons">
+                            <i class="fa-solid fa-repeat"></i>
+                            <i class="fa-regular fa-heart">
+                                <div class="overlay-12">
+                                    12
+                                </div>
+                            </i>
+                            <i class="fa-solid fa-cart-shopping">
+                                <div class="overlay-45">
+                                    45
+                                </div>
+                            </i>
+                            <i class="fa-solid fa-user user"></i>
+                            <div class="user-signin-signup">
+                                <p class="signin">
+                                    <a href="">SignIn</a>
+                                </p>
+                                <p class="signup">
+                                    <a href="#">SignUp</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- === header middle part end here === -->
+        </div>
+    </section>
+    <!-- === header section end here === -->
+
+    <!-- === menu start here === -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    <div class="left-side">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-bars"></i>
+                            </li>
+                            <li><a href="#">All Cetagories</a></li>
+                            <li><a href="#"><i class="fa-solid fa-chevron-down"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9 col-md-9">
+                    <div class="right-side">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Cetagories</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === menu end here === -->
+
+    <!-- === products tracking menu start here === -->
+    <section id="products-tracking-menu">
+        <div class="container">
+            <div class="tracking-menu">
+                <div class="tracking-links">
+                    Home  <i class="fa-solid fa-chevron-right"></i> products
+                </div>
+                <div class="products-type">
+                    <ul>
+                        <li><img src="images/grid.png" alt=""></li>
+                        <li>
+                            <!-- <i class="fa-solid fa-bars"></i> -->
+                            <img src="images/bars.png" alt="">
+                        </li>
+                        <li><span>Sort by popularity</span></li>
+                        <li><i class="fa-solid fa-chevron-down"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === products tracking menu end here === -->
+
+    <!-- === products page start here === -->
+    <section id="products-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    <div class="products-category-list mb-5">
+                        <h3 class="category-titles ex-pad">
+                            Categories
+                        </h3>
+                        <ul>
+                            <li><a href="#">Car Parts <span>(03)</span></a></li>
+                            <li><a href="#">Navigation Devices <span>(03)</span></a></li>
+                            <li><a href="#">Oils & Fluids <span>(03)</span></a></li>
+                            <li><a href="#">Paintwork <span>(03)</span></a></li>
+                            <li><a href="#">Tools & Equipment <span>(03)</span></a></li>
+                            <li><a href="#">Transporting & Storage <span>(03)</span></a></li>
+                            <li><a href="#">Tyres & Rims <span>(03)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="products-price-range">
+                        <h3 class="category-titles">
+                            Price
+                        </h3>
+
+                        <div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+                        <div id="price-range" class="slider"></div>
+
+                        <input type="text" id="pricerange" readonly>
+                    </div>
+                    <div class="products-ratings">
+                        <h3 class="category-titles">
+                            Ratings
+                        </h3>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(70)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(40)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(30)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(20)</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(10)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-tags">
+                        <h3 class="category-titles">
+                            Tages
+                        </h3>
+                        <a href="#" class="tage-names">Engine</a>
+                        <a href="#" class="tage-names">Pump</a>
+                        <a href="#" class="tage-names">Parts</a>
+                        <a href="#" class="tage-names">Parts</a>
+                        <a href="#" class="tage-names">Wheel</a>
+                        <a href="#" class="tage-names">Parts</a>
+                        <a href="#" class="tage-names">Speaker</a>
+                    </div>
+                    <div class="products-sale-offer">
+                        <img src="images/product-sale-offer.png" alt="">
+                        <div class="products-sale-offer-overlay">
+                            <h3 class="deal-overlay-title1">
+                                HURRY UP!
+                            </h3>
+                            <h3 class="deal-overlay-title2">
+                                Save up to <br>
+                                75% 
+                            </h3>
+                            <a href="#" class="shop-btn">Shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-md-9">
+                    <div class="row">
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/Chromium_Generator.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Anti-Fog additional LED Headlights
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (70)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/body-grill-300x300.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/mobile.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/Chromium_Generator.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Anti-Fog additional LED Headlights
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (70)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/body-grill-300x300.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/mobile.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/stereos.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        High Freaquinsy rear Loud Speakers (2 pcs.)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (15)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">
+                                            $55 <span>$85</span>
+                                        </p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/speakers.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Combo Sport Stereos for coupe Models
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (56)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">
+                                            $75 <span>$105</span>
+                                        </p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/tire.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                    Perfect Titanium Wheel Cover
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">
+                                            45$ <span>$75</span>
+                                        </p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/body-grill-300x300.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/body-grill-300x300.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/body-grill-300x300.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        Engine Maintenance Kit (3 in 1 Regular kit)
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (123)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="products-list">
+                                <div class="products-part">
+                                    <img src="images/disk.png" alt="not-found">
+                                    <h5 class="prodtucts-title">
+                                        All Weather Terrain Braker AS/PRO
+                                    </h5>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="rev-count">
+                                        (115)
+                                    </span>
+                                    <div class="rate-cart">
+                                        <p class="rate">25$</p>
+                                        <a href="#" class="add-btn">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                            <span class="add">Add</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <nav class="float-end" aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&lt;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&gt;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === products page end here === -->
+
+
+
+    
+
+
+
+    <!-- === contact start here === -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    <div class="footer-logo">
+                        <img src="images/footer-logo.png" alt="">
+                    </div>
+                    <div class="social">
+                        <p class="follow">Follow us</p>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-3">
+                    <p class="info">
+                        Information
+                    </p>
+                    <ul>
+                        <li><a href="#">Order Procedure </a></li>
+                        <li><a href="#">Return & Refund Policy </a></li>
+                        <li><a href="#">Payment Method </a></li>
+                        <li><a href="#">Terms & Conditions </a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 col-md-2">
+                    <p class="info">
+                        Customer
+                    </p>
+                    <ul>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">30-Day Returns</a></li>
+                        <li><a href="#">Free Gift Packaging</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Help Topics</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-md-4">
+                    <p class="subs">
+                        SUBSCRIBE AND GET 5% OFF DISCOUNT
+                    </p>
+                    <p class="subs-details">
+                        Subscribe to our Newsletter and get <br>
+                        bonuses for the next purchase 
+                    </p>
+                    <div class="search-box">
+                        <form action="#" method="post"  class="input-group">
+                            <input type="search" class="form-control" placeholder="Email" aria-label="Search" aria-describedby="button-addon2">
+                            <button class="btn" type="button" id="button-addon2"><i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === contact end here === -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
+    <script src="js/jQuery.UI.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

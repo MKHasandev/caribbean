@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"> -->
+    <link rel="stylesheet" href="css/jQuery.UI.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Caribbean- An E-commerce Site</title>
+</head>
+<body>
+    <!-- === header section start here === -->
+    <section id="header">
+        <div class="container">
+            <!-- === top header start here === -->
+            <div class="header-top">
+                <div class="req-links">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">wishlist</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <ul>
+                        <li><a  href="tel:+027400">Need help? Call Us: + 0274400</a></li>
+                        <li class="change-lang">
+                            <a href="#">
+                                English
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                        </li>
+                        <div class="lang">
+                            <ul>
+                                <li><a href="#">English</a></li>
+                                <li><a href="#">Bangla</a></li>
+                                <li><a href="#">Chinese</a></li>
+                            </ul>
+                        </div>
+                        <li class="change-currency"><a href="#">USD <i class="fa-solid fa-chevron-down"></i></a></li>
+                        <div class="currency">
+                            <ul>
+                                <li><a href="#">BDT</a></li>
+                                <li><a href="#">USD</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- === top header end here === -->
+
+            <!-- === header middle part start here === -->
+            <div class="header-middle">
+                <div class="row">
+                    <div class="col-3 col-md-3">
+                        <div class="logo">
+                            <img src="images/header_logo.png" alt="Header_Logo_Not_Found">
+                        </div>
+                    </div>
+                    <div class="col-5 col-md-5">
+                        <div class="search-box">
+                            <form action="#" method="post"  class="input-group">
+                                <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                <button class="btn" type="button" id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-4">
+                        <div class="req-icons">
+                            <i class="fa-solid fa-repeat"></i>
+                            <i class="fa-regular fa-heart">
+                                <div class="overlay-12">
+                                    12
+                                </div>
+                            </i>
+                            <i class="fa-solid fa-cart-shopping">
+                                <div class="overlay-45">
+                                    45
+                                </div>
+                            </i>
+                            <i class="fa-solid fa-user user"></i>
+                            <div class="user-signin-signup">
+                                <p class="signin">
+                                    <a href="">SignIn</a>
+                                </p>
+                                <p class="signup">
+                                    <a href="#">SignUp</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- === header middle part end here === -->
+        </div>
+    </section>
+    <!-- === header section end here === -->
+
+    <!-- === menu start here === -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    <div class="left-side">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-bars"></i>
+                            </li>
+                            <li><a href="#">All Cetagories</a></li>
+                            <li><a href="#"><i class="fa-solid fa-chevron-down"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9 col-md-9">
+                    <div class="right-side">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Cetagories</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === menu end here === -->
+
+    <!-- === products tracking menu start here === -->
+    <section id="products-tracking-menu">
+        <div class="container">
+            <div class="tracking-menu">
+                <div class="tracking-links">
+                    Home  <i class="fa-solid fa-chevron-right"></i> products <i class="fa-solid fa-chevron-right"></i> products Details
+                </div>
+                <div class="products-type">
+                    <ul>
+                        <li><img src="images/grid.png" alt=""></li>
+                        <li>
+                            <!-- <i class="fa-solid fa-bars"></i> -->
+                            <img src="images/bars.png" alt="">
+                        </li>
+                        <li><span>Sort by popularity</span></li>
+                        <li><i class="fa-solid fa-chevron-down"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === products tracking menu end here === -->
+
+    <!-- === products page start here === -->
+    <section id="products-details">
+        <div class="container">
+            <!-- === product item details start here === -->
+            <div class="row">
+                <div class="col-6 col-md-6">
+                    <div class="product-item-img-part">
+                        <img class="big" id="change-img" src="images/red-wire-big-color1.png" alt="">
+                        <div class="small">
+                            <img class="color1" src="images/red-wire-smal-color1.png" alt="">
+                            <img class="color2"  src="images/red-wire-smal-color2.png" alt="">
+                            <img class="color3"  src="images/red-wire-smal-color3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6">
+                    <div class="product-item-text-part">
+                        <div class="product-item-title">
+                            Perfect Titanium Wheel Cover
+                        </div>
+                        <div class="product-item-review">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(There are no review yet.)</span>
+                        </div>
+                        <div class="product-item-rate">
+                            <span>$239.00</span> <span>&#8209;</span> <span>$259.00 </span>
+                        </div>
+                        <p class="product-item-details">
+                            Pellentesque habitant morbi tristique senectus et netus et <br>
+                            malesuada fames ac turpis egestas. Vestibulum tortor quam, <br>
+                            feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu 
+                        </p>
+                        <p class="product-item-type">
+                            SKU : <span class="SN">654111995-1-2</span>
+                        </p>
+                        <p class="product-item-type">
+                            Categories: <span class="SN">Wheels, Tires</span>
+                        </p>
+                        <p class="product-item-type">
+                            TAGs: <span class="SN">Wheels</span>
+                        </p>
+                        <div class="product-item-variation">
+                            <p>
+                                colors:
+                            </p>
+                            <ul>
+                                <li class="color color-1"></li>
+                                <li class="color color-2"></li>
+                                <li class="color color-3"></li>
+                            </ul>
+                        </div>
+                        <div class="product-item-variation">
+                            <p>
+                                size:
+                            </p>
+                            <ul>
+                                <li class="size size-1">M</li>
+                                <li class="size size-2">L</li>
+                                <li class="size size-3">X</li>
+                            </ul>
+                        </div>
+                        <div class="quantity-cart">
+                            <div class="row">
+                                <div class="col-6 col-md-6">
+                                    <div class="quantity">
+                                        <form>
+                                            <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">&minus;</div>
+                                            <input type="number" id="number" value="0" min="1" max="100" />
+                                            <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">&plus;</div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <a href="#" class="add-to-cart-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span class="add">Add to cart</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="product-item-shop-now-btn">
+                            Buy now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- === product item details end here ==== -->
+
+            <!-- === product nav and tab start here === -->
+            <section id="product-nav-tab">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Additional information</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Reviews (10+)</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> <br> <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> <br> <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> <br> <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> <br> <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> <br> <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br> <br> <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </section>
+            <!-- === product nav and tab end here === -->
+
+            <!-- === relevant products start here === -->
+            <section id="relevant-products">
+                <div class="container">
+                    <h3 class="section-heading">
+                        relevant Products
+                    </h3>
+                    <div class="row">
+                        <div class="col-3 col-md-3">
+                            <div class="products-part">
+                                <img src="images/Chromium_Generator.png" alt="not-found">
+                                <h5 class="prodtucts-title">
+                                    Anti-Fog additional LED Headlights
+                                </h5>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="rev-count">(70)</span>
+                                <div class="rate-cart">
+                                    <p class="rate">25$</p>
+                                    <a href="#" class="add-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span class="add">Add</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <div class="products-part">
+                                <img src="images/disk.png" alt="not-found">
+                                <h5 class="prodtucts-title">
+                                    All Weather Terrain Braker AS/PRO
+                                </h5>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="rev-count">
+                                    (115)
+                                </span>
+                                <div class="rate-cart">
+                                    <p class="rate">25$</p>
+                                    <a href="#" class="add-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span class="add">Add</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <div class="products-part">
+                                <img src="images/mobile.png" alt="not-found">
+                                <h5 class="prodtucts-title">
+                                    Engine Maintenance Kit (3 in 1 Regular kit)
+                                </h5>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="rev-count">
+                                    (123)
+                                </span>
+                                <div class="rate-cart">
+                                    <p class="rate">25$</p>
+                                    <a href="#" class="add-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span class="add">Add</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-3">
+                            <div class="products-part">
+                                <img src="images/cooler.png" alt="not-found">
+                                <h5 class="prodtucts-title">
+                                    Air Intake Pump (General Electric)
+                                </h5>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span class="rev-count">
+                                    (56)
+                                </span>
+                                <div class="rate-cart">
+                                    <p class="rate">25$</p>
+                                    <a href="#" class="add-btn">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span class="add">Add</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- === relevant products end here === -->
+        </div>
+    </section>
+    <!-- === products page end here === -->
+    
+
+
+
+    <!-- === contact start here === -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-3">
+                    <div class="footer-logo">
+                        <img src="images/footer-logo.png" alt="">
+                    </div>
+                    <div class="social">
+                        <p class="follow">Follow us</p>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-3">
+                    <p class="info">
+                        Information
+                    </p>
+                    <ul>
+                        <li><a href="#">Order Procedure </a></li>
+                        <li><a href="#">Return & Refund Policy </a></li>
+                        <li><a href="#">Payment Method </a></li>
+                        <li><a href="#">Terms & Conditions </a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 col-md-2">
+                    <p class="info">
+                        Customer
+                    </p>
+                    <ul>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">30-Day Returns</a></li>
+                        <li><a href="#">Free Gift Packaging</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Help Topics</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-md-4">
+                    <p class="subs">
+                        SUBSCRIBE AND GET 5% OFF DISCOUNT
+                    </p>
+                    <p class="subs-details">
+                        Subscribe to our Newsletter and get <br>
+                        bonuses for the next purchase 
+                    </p>
+                    <div class="search-box">
+                        <form action="#" method="post"  class="input-group">
+                            <input type="search" class="form-control" placeholder="Email" aria-label="Search" aria-describedby="button-addon2">
+                            <button class="btn" type="button" id="button-addon2"><i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- === contact end here === -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
+    <script src="js/jQuery.UI.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>
