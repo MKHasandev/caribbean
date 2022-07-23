@@ -8,9 +8,31 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <title>Caribbean- An E-commerce Site</title>
 </head>
 <body>
+
+    <!-- === side bar menu start here === -->
+    <div id="side-bar-menu">
+        <div class="side-bar-menu-logo">
+            <img src="images/header_logo.png" alt="logo_not_found">
+        </div>
+        <div class="menu-links">
+            <ul>
+                <li><i class="fa-solid fa-house-user"></i> <a href="#banner">Home</a></li>
+                <li><i class="fa-solid fa-circle-info"></i><a href="#popular-products">About</a></li>
+                <li><i class="fa-solid fa-sitemap"></i><a href="products.html" target="_self">Cetagories</a></li>
+                <li><i class="fa-solid fa-blog"></i><a href="#">Blog</a></li>
+                <li><i class="fa-solid fa-address-book"></i><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- === side bar menu end here === -->
+
+
+
     <!-- === header section start here === -->
     <section id="header">
         <div class="container">
@@ -55,12 +77,12 @@
             <!-- === header middle part start here === -->
             <div class="header-middle">
                 <div class="row">
-                    <div class="col-3 col-md-3">
+                    <div class="col-3 col-lg-3">
                         <div class="logo">
                             <img src="images/header_logo.png" alt="Header_Logo_Not_Found">
                         </div>
                     </div>
-                    <div class="col-5 col-md-5">
+                    <div class="col-5 col-lg-5">
                         <div class="search-box">
                             <form action="#" method="post"  class="input-group">
                                 <input type="search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
@@ -68,7 +90,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-4 col-md-4">
+                    <div class="col-4 col-lg-4">
                         <div class="req-icons">
                             <i class="fa-solid fa-repeat"></i>
                             <i class="fa-regular fa-heart">
@@ -103,7 +125,7 @@
     <section id="menu">
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-3">
+                <div class="col-4 col-lg-3">
                     <div class="left-side">
                         <ul>
                             <li>
@@ -114,14 +136,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-9 col-md-9">
+                <div class="col-8 col-lg-9">
                     <div class="right-side">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Cetagories</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#products-page">About</a></li>
+                            <li><a href="#products-page">Cetagories</a></li>
+                            <li><a href="index.html">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -174,7 +196,7 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-3">
+                <div class="col-6 col-lg-3">
                     <div class="footer-logo">
                         <img src="images/footer-logo.png" alt="">
                     </div>
@@ -186,7 +208,7 @@
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
-                <div class="col-3 col-md-3">
+                <div class="col-6 col-lg-3">
                     <p class="info">
                         Information
                     </p>
@@ -198,7 +220,7 @@
                         <li><a href="#">Privacy policy</a></li>
                     </ul>
                 </div>
-                <div class="col-2 col-md-2">
+                <div class="col-6 col-lg-2">
                     <p class="info">
                         Customer
                     </p>
@@ -210,7 +232,7 @@
                         <li><a href="#">Help Topics</a></li>
                     </ul>
                 </div>
-                <div class="col-4 col-md-4">
+                <div class="col-6 col-lg-4">
                     <p class="subs">
                         SUBSCRIBE AND GET 5% OFF DISCOUNT
                     </p>

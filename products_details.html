@@ -7,12 +7,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
-    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"> -->
     <link rel="stylesheet" href="css/jQuery.UI.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Caribbean- An E-commerce Site</title>
 </head>
 <body>
+
+    <!-- === side bar menu start here === -->
+    <div id="side-bar-menu">
+        <div class="side-bar-menu-logo">
+            <img src="images/header_logo.png" alt="logo_not_found">
+        </div>
+        <div class="menu-links">
+            <ul>
+                <li><i class="fa-solid fa-house-user"></i> <a href="#banner">Home</a></li>
+                <li><i class="fa-solid fa-circle-info"></i><a href="#popular-products">About</a></li>
+                <li><i class="fa-solid fa-sitemap"></i><a href="products.html" target="_self">Cetagories</a></li>
+                <li><i class="fa-solid fa-blog"></i><a href="#">Blog</a></li>
+                <li><i class="fa-solid fa-address-book"></i><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- === side bar menu end here === -->
+
+
     <!-- === header section start here === -->
     <section id="header">
         <div class="container">
@@ -105,7 +124,7 @@
     <section id="menu">
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-3">
+                <div class="col-4 col-lg-3">
                     <div class="left-side">
                         <ul>
                             <li>
@@ -116,14 +135,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-9 col-md-9">
+                <div class="col-8 col-lg-9">
                     <div class="right-side">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Cetagories</a></li>
+                            <li><a href="#product-item-details">About</a></li>
+                            <li><a href="products.html">Cetagories</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -155,22 +174,21 @@
     </section>
     <!-- === products tracking menu end here === -->
 
-    <!-- === products page start here === -->
+    <!-- === products detail start here === -->
     <section id="products-details">
         <div class="container">
+
             <!-- === product item details start here === -->
-            <div class="row">
-                <div class="col-6 col-md-6">
-                    <div class="product-item-img-part">
-                        <img class="big" id="change-img" src="images/red-wire-big-color1.png" alt="">
-                        <div class="small">
-                            <img class="color1" src="images/red-wire-smal-color1.png" alt="">
-                            <img class="color2"  src="images/red-wire-smal-color2.png" alt="">
-                            <img class="color3"  src="images/red-wire-smal-color3.png" alt="">
-                        </div>
+            <div id="product-item-details" class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="big" id="change-img" src="images/red-wire-big-color1.png" alt="">
+                    <div class="small">
+                        <img class="color1" src="images/red-wire-smal-color1.png" alt="">
+                        <img class="color2"  src="images/red-wire-smal-color2.png" alt="">
+                        <img class="color3"  src="images/red-wire-smal-color3.png" alt="">
                     </div>
                 </div>
-                <div class="col-6 col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="product-item-text-part">
                         <div class="product-item-title">
                             Perfect Titanium Wheel Cover
@@ -304,7 +322,7 @@
                         relevant Products
                     </h3>
                     <div class="row">
-                        <div class="col-3 col-md-3">
+                        <div class="col-6 col-lg-3">
                             <div class="products-part">
                                 <img src="images/Chromium_Generator.png" alt="not-found">
                                 <h5 class="prodtucts-title">
@@ -325,7 +343,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 col-md-3">
+                        <div class="col-6 col-lg-3">
                             <div class="products-part">
                                 <img src="images/disk.png" alt="not-found">
                                 <h5 class="prodtucts-title">
@@ -348,7 +366,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 col-md-3">
+                        <div class="col-6 col-lg-3">
                             <div class="products-part">
                                 <img src="images/mobile.png" alt="not-found">
                                 <h5 class="prodtucts-title">
@@ -371,7 +389,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 col-md-3">
+                        <div class="col-6 col-lg-3">
                             <div class="products-part">
                                 <img src="images/cooler.png" alt="not-found">
                                 <h5 class="prodtucts-title">
@@ -400,16 +418,13 @@
             <!-- === relevant products end here === -->
         </div>
     </section>
-    <!-- === products page end here === -->
+    <!-- === products details page end here === -->
     
-
-
-
     <!-- === contact start here === -->
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-3 col-md-3">
+                <div class="col-6 col-lg-3">
                     <div class="footer-logo">
                         <img src="images/footer-logo.png" alt="">
                     </div>
@@ -421,7 +436,7 @@
                         <i class="fa-brands fa-linkedin-in"></i>
                     </div>
                 </div>
-                <div class="col-3 col-md-3">
+                <div class="col-6 col-lg-3">
                     <p class="info">
                         Information
                     </p>
@@ -433,7 +448,7 @@
                         <li><a href="#">Privacy policy</a></li>
                     </ul>
                 </div>
-                <div class="col-2 col-md-2">
+                <div class="col-6 col-lg-2">
                     <p class="info">
                         Customer
                     </p>
@@ -445,7 +460,7 @@
                         <li><a href="#">Help Topics</a></li>
                     </ul>
                 </div>
-                <div class="col-4 col-md-4">
+                <div class="col-6 col-lg-4">
                     <p class="subs">
                         SUBSCRIBE AND GET 5% OFF DISCOUNT
                     </p>
@@ -464,6 +479,12 @@
         </div>
     </section>
     <!-- === contact end here === -->
+
+    <!-- === top to up animation btn === -->
+    <div id="bottom-to-top" class="hide-btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- === top to up animation btn === -->
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
