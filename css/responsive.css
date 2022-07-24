@@ -505,7 +505,7 @@
         }
 
         .products-sale-offer .products-sale-offer-overlay {
-            padding: 98px 0px 132px 120px;
+            padding: 98px 40px 132px 73px;
         }
     }
 
@@ -530,10 +530,6 @@
 
         #product-nav-tab ul li {
             margin-right: 8px;
-        }
-
-        .products-sale-offer .products-sale-offer-overlay {
-            padding: 98px 133px 133px 80px;
         }
 
         #contact .social i {
