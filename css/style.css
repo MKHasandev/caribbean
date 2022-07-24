@@ -133,6 +133,7 @@
         color: #000000;
         margin-bottom: 65px;
         position: relative;
+        text-transform: capitalize;
     }
 
     .section-heading::before {
@@ -1742,6 +1743,7 @@
         padding-bottom: 100px;
     }
 
+
     #deal .deal-section-header {
         display: flex;
         justify-content: space-between;
@@ -1749,6 +1751,16 @@
 
     #deal .deal-section-header .section-heading {
         margin-bottom: 0px;
+    }
+
+    #deal .deal-section-header .section-heading::after {
+        content: '';
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        height: 3px;
+        width: 100%;
+        background: #FEBD69;
     }
 
     #deal .deal-section-header #countDown {

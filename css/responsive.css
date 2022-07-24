@@ -147,6 +147,16 @@
 
     @media (max-width: 991px) {
 
+        .section-heading::after {
+            content: '';
+            position: absolute;
+            top: 65px;
+            left: 0px;
+            height: 3px;
+            width: 46%;
+            background: #FEBD69;
+        }
+
         #header .header-top ul {
             margin-bottom: 0;
             padding-left: 0;
@@ -335,12 +345,30 @@
             margin-bottom: 40px;
         }
 
+        #products-tracking-menu .tracking-menu .products-type ul li {
+            font-size: 13px;
+        }
+
+        #products-tracking-menu .tracking-menu .products-type ul li img {
+            width: 75%;
+        }
+
         .products-sale-offer .products-sale-offer-overlay {
-            padding: 100px 175px 130px 100px;
+            padding: 100px 226px 130px 100px;
         }
 
         #deal .deal-section-header  {
             display: block;
+        }
+
+        #deal .deal-section-header .section-heading::after {
+            content: '';
+            position: absolute;
+            top: 65px;
+            left: 0px;
+            height: 3px;
+            width: 67%;
+            background: #FEBD69;
         }
 
         #deal .deal-section-header .section-heading {
@@ -356,21 +384,159 @@
             width: 80px;
         }
 
+        #products-tracking-menu .tracking-menu .tracking-links i {
+            margin: 0 5px;
+        }
+
+        #products-tracking-menu .tracking-menu .products-type ul li:nth-child(1),
+        #products-tracking-menu .tracking-menu .products-type ul li:nth-child(2) {
+            margin-right: 5px;
+        }
+
+        #slider-range {
+            margin: auto;
+        }
+
+        .ui-slider-horizontal {
+            width: 65%;
+            height: 10px;
+            border-radius: 6px;
+        }
+
+        .ui-slider-handle.ui-corner-all.ui-state-default {
+            width: 20px;
+            height: 20px;
+            top: -5px;
+            border-radius: 50%;
+            background: #FEBD69;
+            border: 1px solid transparent;
+        }
     }
 
     @media (max-width: 576px) {
+        .section-heading {
+            font-size: 25px;
+        }
+
+        #just-f-u .products-part img,
+        #popular-products .products-part img,
         .products-part img {
             width: 50%;
         }
 
         #product-nav-tab ul li {
-            margin-right: 8px;
+            margin-right: 10px;
+        }
+
+        .nav-pills .nav-link {
+            font-size: 16px;
+        }
+
+        .interior-right-side .products-part img {
+            height: 120px;
         }
     }
 
     @media (max-width: 480px) {
+
+        #features .features-items img {
+            width: 30%;
+        }
+
+        #features .features-items .features-heading {
+            font-size: 20px;
+        }
+
+        #features .features-items .features-title {
+            font-size: 16px;
+        }
+
         .carousel-controller {
            display: none;
+        }
+
+        #partners .partners-logo img {
+            margin-right: 15px;
+            width: 15%;
+        }
+
+        #just-f-u .products-part, #popular-products .products-part {
+            padding: 33px;
+        }
+
+        .interior-right-side .products-part img {
+            height: 100px;
+        }
+
+        #body-parts .interior-img-overlay, .interior-img-overlay {
+            padding: 65px;
+        }
+
+        #body-parts .interior-img-overlay .overlay-details {
+            margin-bottom: 265px;
+        }
+
+        #deal .deal-section-header .section-heading::after {
+            content: '';
+            position: absolute;
+            top: 65px;
+            left: 0px;
+            height: 3px;
+            width: 75%;
+            background: #FEBD69;
+        }
+
+        #deal .deal-img-overlay {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        #deal .deal-overlay-text {
+            font-size: 20px;
+        }
+
+        #deal .deal-overlay-title {
+            font-size: 25px;
+        }
+
+        #deal .deal-shop-btn {
+            font-size: 15px;
+            padding: 5px;
+        }
+
+        .products-sale-offer .products-sale-offer-overlay {
+            padding: 98px 145px 132px 120px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .products-sale-offer .products-sale-offer-overlay {
+            padding: 95px 88px 134px 73px;
+        }
+
+        #products-tracking-menu .tracking-menu .products-type ul li {
+            font-size: 12px;
+        }
+
+        #products-tracking-menu .tracking-menu .products-type ul li:nth-child(1), 
+        #products-tracking-menu .tracking-menu .products-type ul li:nth-child(2) {
+            margin-right: 0px;
+        }
+
+        #products-tracking-menu .tracking-menu .products-type ul li:nth-child(3) {
+            margin-right: 3px;
+        }
+
+        .nav-pills .nav-link {
+            font-size: 13px;
+        }
+
+        #product-nav-tab ul li {
+            margin-right: 8px;
+        }
+
+        #contact .social i {
+            margin-right: 10px;
         }
     }
 /* === main page responsive end here === */
