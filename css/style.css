@@ -390,7 +390,7 @@
     #side-bar-menu {
         background: #FEBD69;
         width: 60px;
-        height: 400px;
+        height: 450px;
         position: fixed;
         top: 20%;
         left: 10px;
@@ -1449,6 +1449,13 @@
 
                 .pagination .page-item {
                     display: inline-block;
+                }
+
+                .pagination .page-item:focus-visible,
+                .pagination .page-item .page-link:focus-visible,
+                .pagination .page-item .page-link:focus {
+                    outline: none;
+                    box-shadow: none;
                 }
 
                 .pagination .page-item .page-link {
